@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Html Assignment</title>
+    <link rel="icon" href="assets\icons\html_icon.png" type="image/x-icon"/>
+</head>
+<body>
+
+    
+   <a id="top"></a>
+   <h1>Heading 1: HTML Assignment Title</h1> 
+   <h2>Heading 2: Module Overview</h2> 
+   <h3>Heading 3: Sub-topic Breakdown</h3> 
+   <h4>Heading 4: Detail Section</h4> 
+   <h5>Heading 5: Minor Note</h5> 
+   <h6>Heading 6: Version Info</h6> 
+   <h4>Navigation Menu:</h4>
+   <p><a href="#first_Section" >1.Internal Navigation(Jump to About).</a>|<a href="products.html">2.Next Page in Same Website.</a>|<a href=" https://developer.mozilla.org/
+">3.External link (MDN).</a>|<a href="someone@example.com">4.Email Link</a>|<a href=assetsicons/#first_Section">5.Telephone Link</a>| <a href="..\assets\images\image.jpg">6.Download Image Link</a>
+   </p><hr>
+   <h2>Text Formatting Elements</h2> 
+   <p>This paragraph demonstrates Various text inline Formatting elements:<em>emphasized text (em)</em>,<mark>highlighted text (mark)</mark>,<strong>strong text (strong)</strong>, and <u>underlined text (u).</u><br>
+     This sentence appears after a forced line break(br)</p>
+ <hr>
+ <h2> Preformatted Text & Address</h2>
+ <pre>
+    function calculateGrade(score) {
+        if (score >= 90 ) return "A" ;
+        return "B"
+    }
+ </pre>
+ <address>
+   Submitted by: Student Developer <br>
+   Department of Comuter Science  <br>
+   Email:<a href="mailto:student@example.com"><em>student@example.com</em></a>
+ </address><hr>
+ <h2>Image Demonstration</h2>
+ <img src="assets\images\image.jpg" height="150" width="250">
+ <hr>
+ <h2>Lists</h2>
+ <h3>Ordered List (ol)</h3>
+ <ol>
+    <li>First Step: Learn HTML tags</li>
+    <li>Second Step: Create the layout</li>
+    <li>Third Step: Test in browser</li>
+ </ol>
+ <h3>Unordered List (ul) with Nested Lists </h3>
+ <ul >
+    <li>Frontend Web Development
+        <ul type="circle">
+           <li>HTML5 
+             <ul type="square">
+               <li>Semantic Tags</li>
+               <li>Forms & Inputs</li>
+             </ul>
+           </li>
+             <li>CSS3</li>
+             <li>JavaScript</li>
+        </ul>
+    </li>
+    <li>Backend Web Development
+       <ul>
+        <li>Node.js</li>
+        <li>Databases</li>
+       </ul>
+    </li>
+ </ul>
+ <h3>Description List (dl,dt,dd)</h3>
+ <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language-defines the structure of web documents.</dd>
+    <dt>Browser</dt>
+    <dd>A software application used to access and view websites.</dd>
+
+ </dl><hr>
+<h3>Table with Colspan & Rowspan</h3>
+<table border="1">
+    <caption>student Academic Results Summary</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Student Name</th>
+            <th colspan="2">Scores</th>
+            <th rowspan="2">Final Grade</th>
+        </tr>
+        <tr>
+            <th>Assignments </th>
+            <th>Exams</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jane Doe</td>
+            <td>95</td>
+            <td>92</td>
+            <td>A</td>
+        </tr>
+         <tr>
+            <td>John Smith</td>
+            <td>88</td>
+            <td>84</td>
+            <td>B</td>
+        </tr>
+    </tbody>
+</table>
+<h3>Interactive Form Controls</h3>
+    <form>
+    <label for="Name">Full Name(Text Input):</label><br>
+    <input type="text" placeholder="John Doe" id="Name"><br>
+    <label for="password">password(password Input):</label><br>
+    <input type="password" id="password"><br>
+    <label for="Email">Email Address(Email Input):</label><br>
+    <input type="email" id="Email"><br>
+    <label for="age">Age(Number Input):</label><br>
+    <input type="number" id="age" value="20"><br><br>
+    <label for="Gender">Gender(Radio Input):</label><br>
+    <input type="radio" id="Gender" checked>Male<br>
+    <input type="radio" id="Gender">Female<br><br>
+     <label for="Topics">Topics(Checkbox Input):</label><br>
+    <input type="checkbox" id="Topics" checked>Web Development<br>
+    <input type="checkbox" id="Topics">Databases<br>
+     <label for="Browser">Preferred Browser(Input List):</label><br>
+    <input type="text" id="Browser" list="input-list"><br>
+        <datalist id="input-list">
+        <option>brave</option>
+        <option>chrome</option>
+        <option>firefox</option>
+    </datalist><br>
+    Academic Level(Select)<br>
+    <select>
+        <option>Undergraduate</option>
+        <option>Postgraduate</option>
+        <option>Doctorate</option>
+    </select><br><br>
+    Feedback(Textarea):<br>
+    <textarea cols="30" rows="5">enter feedback here...</textarea><br><br>
+    <button type="submit">submit Form </button>
+    <button type="reset">Reset Form</button>
+    </form> 
+    <hr>
+     <p>2026 html Assignment Solution.All Rights Reserved.</p>
+     <a href="#top">Back to top</a>
+</body>
+</html>

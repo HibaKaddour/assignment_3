@@ -7,7 +7,7 @@
     <link rel="icon" href="assets\icons\html_icon.png" type="image/x-icon"/>
 </head>
 <body>
-   <h1>Heading 1: HTML Assignment Title</h1> 
+   <h1 id="top">Heading 1: HTML Assignment Title</h1> 
    <h2>Heading 2: Module Overview</h2> 
    <h3>Heading 3: Sub-topic Breakdown</h3> 
    <h4>Heading 4: Detail Section</h4> 
@@ -44,7 +44,7 @@
     <li>Third Step: Test in browser</li>
  </ol>
  <h3>Unordered List (ul) with Nested Lists </h3>
- <ul >
+ <ul>
     <li>Frontend Web Development
         <ul type="circle">
            <li>HTML5 
@@ -63,7 +63,6 @@
         <li>Databases</li>
        </ul>
     </li>
-    
  </ul>
  <h3>Description List (dl,dt,dd)</h3>
  <dl>
@@ -102,12 +101,42 @@
         </tr>
     </tbody>
 </table>
-<h3>Interactive Form Controls</h3>
-<main>
-   <form>
-    <label for="">Full Name(Text Input):</label><br>
-    <input type="text" value="John Doe">
-   </form>     
-    </main>
+ <h3>Interactive Form Controls</h3>
+    <form>
+    <label for="Name">Full Name(Text Input):</label><br>
+    <input type="text" placeholder="John Doe" id="Name"><br>
+    <label for="password">password(password Input):</label><br>
+    <input type="password" id="password"><br>
+    <label for="Email">Email Address(Email Input):</label><br>
+    <input type="email" id="Email"><br>
+    <label for="age">Age(Number Input):</label><br>
+    <input type="number" id="age" value="20"><br><br>
+    <label for="Gender">Gender(Radio Input):</label><br>
+    <input type="radio" id="Gender" checked>Male<br>
+    <input type="radio" id="Gender">Female<br><br>
+     <label for="Topics">Topics(Checkbox Input):</label><br>
+    <input type="checkbox" id="Topics" checked>Web Development<br>
+    <input type="checkbox" id="Topics">Databases<br>
+     <label for="Browser">Preferred Browser(Input List):</label><br>
+    <input type="text" id="Browser" list="input-list"><br>
+        <datalist id="input-list">
+        <option>brave</option>
+        <option>chrome</option>
+        <option>firefox</option>
+    </datalist><br>
+    Academic Level(Select)<br>
+    <select>
+        <option>Undergraduate</option>
+        <option>Postgraduate</option>
+        <option>Doctorate</option>
+    </select><br><br>
+    Feedback(Textarea):<br>
+    <textarea cols="30" rows="5">enter feedback here...</textarea><br><br>
+    <button type="submit">submit Form </button>
+    <button type="reset">Reset Form</button>
+    </form> 
+    <hr>
+     <p>2026 html Assignment Solution.All Rights Reserved.</p>
+     <a href="#top">Back to top</a>
 </body>
 </html>
